@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # Automação de Sistemas e Processos com Python
 # 
 # ### Desafio:
@@ -50,10 +47,6 @@ pyautogui.click(x=429, y=394, clicks=1)
 pyautogui.click(x=1714, y=187, clicks=1)
 pyautogui.click(x=1499, y=595, clicks=1)
 time.sleep(5)
-
-#passo 4 - calcularia os indicadores (faturamento e quantidade de produtos vendidos)
-#passo 5 - enviar em email para a diretoria com os indicador
-
 
 # ### Vamos agora ler o arquivo baixado para pegar os indicadores
 # 
@@ -116,22 +109,9 @@ pyautogui.hotkey("ctrl","enter")
 
 
 #### Use esse código para descobrir qual a posição de um item que queira clicar
-
+# pyautogui.position()
 - Lembre-se: a posição na sua tela é diferente da posição na minha tela
-# 
 
-# ### 
-
-# In[ ]:
-
-
-
-
-time.sleep(5)
-
-pyautogui.position()
-
-# In[ ]:
 
 
 
