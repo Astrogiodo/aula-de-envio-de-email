@@ -12,6 +12,8 @@
 
 # In[119]:
 
+#sexo a 3
+
 
 #instalar uma única vez
 get_ipython().system('pip install pyautogui')
